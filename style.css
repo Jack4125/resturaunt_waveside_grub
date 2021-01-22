@@ -96,18 +96,18 @@ nav {
   padding: 1rem 0;
 }
 
-/* social */
-.social {
+/* nav social */
+nav .social {
   display: flex;
   gap: 10px;
 }
 
-.social-icon {
+nav .social-icon {
   font-size: 2rem;
   cursor: pointer;
   color: var(--theme-color);
 }
-.social-icon:hover {
+nav .social-icon:hover {
   color: red;
 }
 
@@ -436,6 +436,12 @@ footer {
     font-size: 16px;
   }
 
+  body {
+    background: url('images/bg.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
   .btn-wrap {
     text-align: start;
   }
@@ -449,6 +455,28 @@ footer {
   }
 
   /* header */
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    padding: 1rem 0;
+  }
+
+  nav .social {
+  }
+
+  .nav-contact {
+    color: #fff;
+    font-size: 1.1rem;
+  }
+
+  .nav-logo {
+    width: 10rem;
+    margin: 5rem 1rem 0 1rem;
+  }
+
   .menu-btn {
     display: none;
   }
