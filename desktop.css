@@ -1,0 +1,161 @@
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    /* background: url('images/bg.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed; */
+  }
+
+  .btn-wrap {
+    text-align: start;
+  }
+
+  .desktop-show {
+    display: flex !important;
+  }
+
+  .only-mobile {
+    display: none;
+  }
+
+  .only-desktop {
+    display: block;
+  }
+
+  /* header */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 1rem 0;
+  }
+
+  .nav-contact {
+    margin-right: 100px;
+  }
+
+  .nav-logo {
+    width: 10rem;
+    margin-top: 5rem;
+  }
+
+  .burger-btn {
+    display: none !important;
+  }
+
+  .nav-list {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    background: transparent;
+    padding: 0;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    border-right: none;
+    border-bottom: none;
+    transform: none;
+  }
+
+  .nav-link {
+    padding: 0.5rem;
+    margin: 0 5px;
+    border-bottom: none;
+    font-size: 1.1rem;
+  }
+
+  .nav-link-btn {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    padding: 0.4rem 1.2rem 0.6rem 1.2rem;
+    border: 2px solid var(--theme-color);
+  }
+
+  .nav-link-btn:hover {
+    color: #fff;
+    background: var(--theme-color);
+    transition: 0.2s;
+  }
+
+  .nav-control-show {
+    display: none;
+  }
+
+  /* showcase */
+  /* .showcase {
+    background: url('images/desktop.jpg') no-repeat center;
+  } */
+
+  .showcase-content {
+    height: 100vh;
+  }
+
+  .showcase h1 {
+    font-size: 4rem;
+  }
+
+  /* services */
+  .services {
+    padding: 5rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  /* left-right ordering only apples on desktop */
+  .services-left {
+    order: -1;
+  }
+
+  .services img {
+    width: 55%; /* set proportional width */
+    flex-shrink: 0; /* prevent horizontal shrink*/
+    align-self: center; /* prevent image vertical stretch*/
+  }
+
+  .services article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  .services-special {
+    text-align: left;
+  }
+
+  .services h2 {
+    text-align: start;
+  }
+
+  /* menu */
+  .menu-gallery li {
+    overflow: hidden;
+    width: 25%;
+    height: 25vw;
+  }
+
+  /* mid */
+  .mid form {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .mid input {
+    width: 350px;
+  }
+
+  /* footer */
+  .footer-top {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-list {
+    width: 250px;
+  }
+}

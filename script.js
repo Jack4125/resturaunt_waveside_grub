@@ -1,6 +1,7 @@
 (function () {
   'use strict';
 
+  // contact info
   const email = document.querySelectorAll('.business-email');
   const phone = document.querySelectorAll('.business-phone');
 
@@ -12,12 +13,12 @@
     item.href = `${cryptOne[0]}${cryptTwo[1]}${cryptOne[2]}${cryptTwo[3]}`;
   });
   phone.forEach(item => {
-    item.innerHTML = `${cryptTwo[2]}${cryptOne[3]}`;
+    // item.innerHTML = `${cryptTwo[2]}${cryptOne[3]}`;
     item.href = `${cryptTwo[0]}${cryptOne[1]}${cryptTwo[2]}${cryptOne[3]}`;
   });
 
   // nav control
-  document.querySelector('.menu-btn').addEventListener('click', () => {
+  document.querySelector('.burger-btn').addEventListener('click', () => {
     document.querySelector('.nav-list').classList.add('nav-show');
     document.querySelector('.nav-control').classList.add('nav-control-show');
   });

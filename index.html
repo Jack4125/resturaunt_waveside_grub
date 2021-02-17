@@ -11,6 +11,7 @@
     <link rel="apple-touch-icon" href="/images/favicon.png" />
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./desktop.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -20,59 +21,53 @@
       href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
       rel="stylesheet"
     />
+    <!-- <i class="fas fa-umbrella-beach"></i> -->
   </head>
 
   <body>
     <!-- header -->
     <header>
       <nav class="container">
-        <!-- social -->
-        <ul class="social">
-          <!-- <li>
-            <a href="https://www.facebook.com/WAVESIDEGRUB/" target="_blank"
-              ><i class="fab fa-facebook-square social-icon"></i
+        <ul class="nav-contact">
+          <li>
+            <a href="./index.html" class="nav-contact-link" title="Find us"
+              ><i class="fas fa-map-marker-alt nav-contact-icon"></i>
+            </a>
+          </li>
+          <li class="desktop-show">
+            <a class="business-phone nav-contact-link" href="#" title="Call us"
+              ><i class="fas fa-phone nav-contact-icon"></i>
+            </a>
+          </li>
+          <li class="desktop-show">
+            <a
+              href="https://www.facebook.com/WAVESIDEGRUB/"
+              class="nav-contact-link"
+              target="_blank"
+              ><i class="fab fa-facebook-f nav-contact-icon"></i
             ></a>
           </li>
-          <li>
+          <li class="desktop-show">
             <a
               href="https://www.instagram.com/waveside_grub/?hl=en"
+              class="nav-contact-link"
               target="_blank"
-              ><i class="fab fa-instagram-square social-icon"></i
+              ><i class="fab fa-instagram nav-contact-icon"></i
             ></a>
-          </li> -->
-          <li>
-            Call Us:
-            <a class="business-phone nav-contact" href="#" title="Call us"></a>
           </li>
-          <!-- <a class="business-email" href="#" title="Email us"></a> -->
         </ul>
 
-        <a class="logo-link" href="/">
-          <img
-            class="logo nav-logo"
-            src="images/cricle-croppedup.png"
-            alt="logo"
-          />
+        <a href="./index.html">
+          <img class="nav-logo" src="images/logo-circle-no-bg.png" alt="logo" />
         </a>
 
-        <div class="menu-btn">
-          <div class="menu-line"></div>
-          <div class="menu-line"></div>
-          <div class="menu-line"></div>
-        </div>
+        <i class="fas fa-bars burger-btn"></i>
 
         <ul class="nav-list">
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="nav-link" href="./menu.html">Menu</a></li>
           <li>
-            <a class="nav-link" href="/resturaunt_waveside_grub">Home</a>
-          </li>
-          <li><a class="nav-link" href="#">About</a></li>
-          <li><a class="nav-link" href="#">Menu</a></li>
-          <li>
-            <a
-              class="nav-link nav-link-btn"
-              href="./resturaunt_waveside_grub#contact"
-              >Contact</a
-            >
+            <a class="nav-link nav-link-btn" href="./contact.html">Contact</a>
           </li>
         </ul>
 
@@ -94,67 +89,103 @@
     </section>
 
     <!-- services -->
-    <section>
+    <section class="bg-dark">
       <div class="container">
         <div class="services">
-          <!-- <picture>
-            <source media="(min-width:600px)" srcset="images/desktop.jpg" /> -->
-          <img
-            class="toggle-desktop"
-            src="images/grill-3.jpg"
-            alt="background"
-          />
-          <!-- </picture> -->
+          <img class="only-desktop" src="images/grill-3.jpg" alt="background" />
           <article class="services-left">
             <p class="services-special">Lorem ipsum dolor sit amet.</p>
             <h2 class="title">Stop Dreaming,<br />Start Drawing.</h2>
             <p>
-              Whether you want to learn a new skill, spark your creativity, or
-              boost your memory, Drawspace lessons are designed to benefit
-              people of all ages and skill levels.
+              Waveside Grill was started by two friends who grew up in Santa
+              Barbara and loved barbecue. The business initially consisted of
+              catering and dishing up deliciousness for local businesses and
+              festivals; in 2020, we set up everything we needed to serve whole
+              Santa Barbara community.
+            </p>
+            <p>
+              Today we welcome customers from across Santa Barbara county. With
+              local owners, we know what people in the area want when it comes
+              to their steak and barbecue, and we're ready to serve it up!
             </p>
             <div class="btn-wrap">
-              <button class="btn btn-1">Find out more</button>
+              <button class="btn btn-1">Find Us Now</button>
             </div>
           </article>
         </div>
       </div>
       <img
-        class="toggle-mobile full-width"
+        class="only-mobile services-img"
         src="images/grill-3.jpg"
         alt="background"
       />
     </section>
 
     <!-- services -->
-    <section class="section-bg">
+    <section>
       <div class="container">
         <div class="services">
           <!-- <picture>
             <source media="(min-width:600px)" srcset="images/desktop.jpg" /> -->
           <img
-            class="toggle-desktop services-left"
+            class="only-desktop services-left"
             src="images/grill-2.jpg"
             alt="background"
           />
           <!-- </picture> -->
           <article>
             <p class="services-special">Lorem ipsum dolor sit amet.</p>
-            <h2 class="title">Stop Dreaming,<br />Start Drawing.</h2>
+            <h2 class="title">Popular Local Spot</h2>
             <p>
-              Whether you want to learn a new skill, spark your creativity, or
-              boost your memory, Drawspace lessons are designed to benefit
-              people of all ages and skill levels.
+              We understand that fresh ingredients, impeccable seasoning, and
+              juicy meat are what make our barbecue special. we're all about
+              utilizing the freshest ingredients when we craft our meals.
+            </p>
+            <p>
+              Our chef's skills, experience, and passion ensure every dish comes
+              out perfect as well as never letting you wait too long.
             </p>
             <div class="btn-wrap">
-              <button class="btn btn-1">Find out more</button>
+              <button class="btn btn-1">Find Us Now</button>
             </div>
           </article>
         </div>
       </div>
       <img
-        class="toggle-mobile full-width services-left"
+        class="only-mobile services-img"
         src="images/grill-2.jpg"
+        alt="background"
+      />
+    </section>
+
+    <!-- services -->
+    <section class="bg-dark">
+      <div class="container">
+        <div class="services">
+          <img class="only-desktop" src="images/grill-3.jpg" alt="background" />
+          <article class="services-left">
+            <p class="services-special">Lorem ipsum dolor sit amet.</p>
+            <h2 class="title">Delivering great food</h2>
+            <p>
+              Here at Waveside Grill, you'll find a range of different BBQ
+              dishes for you and your family to enjoy. Our barbecue is
+              outstanding, and we stand behind every dish we put out and
+              guarantee they are cooked to perfection.
+            </p>
+            <p>
+              Besides serving amazing steak, we also change our mene specials
+              regularly, so you won't get tired of what's on offer. For a more
+              in-depth look at our menu, please check out our menu below.
+            </p>
+            <div class="btn-wrap">
+              <button class="btn btn-1">Menu</button>
+            </div>
+          </article>
+        </div>
+      </div>
+      <img
+        class="only-mobile services-img"
+        src="images/grill-3.jpg"
         alt="background"
       />
     </section>
@@ -164,29 +195,10 @@
         <h2 class="title">Menu</h2>
         <ul>
           <li>
-            <h3>1. Torta Adobada<i class="menu-price">$ 5</i></h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-              maxime!
-            </p>
-          </li>
-          <li>
-            <h3>2. Beef Dip (Dipped Twice)<i class="menu-price">$ 5</i></h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-              maxime!
-            </p>
-          </li>
-          <li>
-            <h3>3. Tacos Carnitas<i class="menu-price">$ 5</i></h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-              maxime!
-            </p>
-          </li>
-          <li>
             <h3>
-              4. Carne Asada & Grilled Corn Elote<i class="menu-price">$ 5</i>
+              <i class="fab fa-gripfire"></i> Torta Adobada<i class="menu-price"
+                >$ 5</i
+              >
             </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
@@ -194,7 +206,48 @@
             </p>
           </li>
           <li>
-            <h3>4. Chicken Kebabs<i class="menu-price">$ 5</i></h3>
+            <h3>
+              <i class="fab fa-gripfire"></i> Beef Dip (Dipped Twice)<i
+                class="menu-price"
+                >$ 5</i
+              >
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              maxime!
+            </p>
+          </li>
+          <li>
+            <h3>
+              <i class="fab fa-gripfire"></i> Tacos Carnitas<i
+                class="menu-price"
+                >$ 5</i
+              >
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              maxime!
+            </p>
+          </li>
+          <li>
+            <h3>
+              <i class="fab fa-gripfire"></i> Carne Asada & Grilled Corn Elote<i
+                class="menu-price"
+                >$ 5</i
+              >
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              maxime!
+            </p>
+          </li>
+          <li>
+            <h3>
+              <i class="fab fa-gripfire"></i> Chicken Kebabs<i
+                class="menu-price"
+                >$ 5</i
+              >
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               maxime!
@@ -202,7 +255,7 @@
           </li>
         </ul>
         <div class="btn-wrap">
-          <button class="btn btn-1">Order Now</button>
+          <button class="btn btn-1">See Full Menu</button>
         </div>
       </div>
       <ul class="menu-gallery">
@@ -213,13 +266,6 @@
       </ul>
     </section>
 
-    <!-- generate contact information using script -->
-    <section id="contact">
-      <div>Call Us</div>
-      <a class="business-phone" href="#" title="Call us"></a>
-      <div>Email Us</div>
-      <a class="business-email" href="#" title="Email us"></a>
-    </section>
     <!-- mid -->
     <section class="section-bg">
       <div class="container">
@@ -247,21 +293,6 @@
             <img class="logo footer-logo" src="images/logo.jpg" alt="logo" />
           </a>
           <h3 class="title footer-whatever">WaveSide Grub</h3>
-          <!-- social -->
-          <!-- <ul class="social">
-            <li>
-              <a href="https://www.facebook.com/WAVESIDEGRUB/" target="_blank"
-                ><i class="fab fa-facebook-square social-icon"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/waveside_grub/?hl=en"
-                target="_blank"
-                ><i class="fab fa-instagram-square social-icon"></i
-              ></a>
-            </li>
-          </ul> -->
         </div>
         <ul class="footer-list">
           <li>
