@@ -1,5 +1,5 @@
 :root {
-  --theme-color: rgb(199, 35, 35);
+  --theme-color: rgb(175, 31, 31);
   --theme-brown: rgb(56, 3, 3);
   --theme-yellow: #e8e0cf;
 }
@@ -96,6 +96,10 @@ nav {
   align-items: center;
   height: 6rem;
   padding: 1rem 0;
+}
+
+.nav-push-down {
+  margin-top: 6rem;
 }
 
 .nav-contact {
@@ -277,6 +281,16 @@ nav {
   display: none;
 }
 
+/* banner */
+
+.banner {
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 3rem 1rem;
+  color: #fff;
+  background-color: rgb(114, 23, 23);
+}
+
 /* menu */
 .menu {
   /* color: #fff; */
@@ -445,3 +459,92 @@ footer {
 * MEDIA QUERIES
 *
 *******************************/
+
+/*******************************
+*
+* Contact Page
+*
+*******************************/
+
+.contact-page {
+  margin-top: 3rem;
+}
+
+.map-iframe {
+  width: 100%;
+  background-color: rgba(155, 155, 155, 0.329);
+}
+
+.contact-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--theme-color);
+}
+
+.contact-divide-info {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+address {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-divide-info a {
+  color: #000;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.contact-divide-info a:hover {
+  color: var(--theme-color);
+}
+
+/* form */
+
+/* form */
+::placeholder {
+  color: #afafaf;
+  opacity: 1; /* firefox */
+}
+
+.message-form {
+  max-width: 600px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+}
+
+.message-form h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--theme-color);
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.message-form label {
+  padding: 0.8rem 0;
+}
+
+input,
+select,
+textarea {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.form-btn-right {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.form-btn-overwrite {
+  margin-top: 3rem;
+}

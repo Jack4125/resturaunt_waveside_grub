@@ -78,6 +78,94 @@
 
     <!-- Contact Page -->
 
+    <main class="nav-push-down">
+      <section class="contact-page container">
+        <div class="services">
+          <!-- contact info -->
+
+          <article class="services-left">
+            <h2 class="title">Contact Us</h2>
+            <p>
+              If you have any questions, feel free to email or call us.
+              Alternatively, you can send us a direct message using the form
+              below.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <iframe
+          class="map-iframe"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDYmkrAM-eCfJ2wuk_Tczz8LUXDzseQsQg
+          &zoom=14&q=Starbucks,Goleta+CA"
+          allowfullscreen
+        >
+        </iframe>
+      </section>
+
+      <section class="contact-divide">
+        <section class="container contact-divide-info">
+          <h3 class="contact-title">Address</h3>
+          <address>Santa Barbara, CA, USA</address>
+          <h3 class="contact-title">Phone</h3>
+          <a class="business-phone" href="#" title="Call us">(805) 335-4521</a>
+          <h3 class="contact-title">Email</h3>
+          <a class="business-email" href="#" title="Email us"></a>
+        </section>
+        <!-- form -->
+        <section>
+          <div id="contact-form" class="message-form">
+            <h2>Contact Us</h2>
+            <div class="form-group">
+              <label for="user-email">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="user-email"
+                placeholder="email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="multiple-choice">Example multiple select</label>
+              <select id="multiple-choice" multiple>
+                <option>1</option>
+                <option>2</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="user-message">Example textarea</label>
+              <textarea
+                id="user-message"
+                rows="3"
+                placeholder="Your message..."
+              ></textarea>
+            </div>
+
+            <div class="form-btn-right">
+              <!-- https://developers.google.com/recaptcha/docs/v3 -->
+              <!-- https://www.google.com/recaptcha/admin/site/436408100/setup -->
+              <button id="message-submit-btn" class="btn-1">Submit</button>
+              <!-- <button
+                id="message-submit-btn"
+                class="btn-1 g-recaptcha"
+                type="submit"
+                data-sitekey="6LckDwMaAAAAAB3N9ZzZUbd7zQCyo3ssJPBsAQI2"
+                data-callback="onSubmit"
+                data-action="submit"
+              >
+                Submit
+              </button> -->
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
     <!-- footer -->
     <footer>
       <div class="footer-top container">

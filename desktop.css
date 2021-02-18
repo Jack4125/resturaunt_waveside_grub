@@ -39,8 +39,8 @@
   }
 
   .nav-logo {
-    width: 10rem;
-    margin-top: 5rem;
+    width: 9rem;
+    margin-top: 4rem;
   }
 
   .burger-btn {
@@ -158,4 +158,21 @@
   .footer-list {
     width: 250px;
   }
+}
+
+/* contact page */
+
+/* .contact-divide {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+} */
+
+/* form */
+/* form */
+.message-form {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
 }

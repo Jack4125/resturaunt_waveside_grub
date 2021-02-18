@@ -42,4 +42,20 @@
     prevScrollPos = currentScrollPos;
   }
 
+  // subscription
+  let subscriptionBtn = document.getElementById('subscription-submit-btn');
+  if (subscriptionBtn) {
+    subscriptionBtn.addEventListener('click', ()=> {
+      alert("Subscription Failed.\nSomething went wrong. Please contact us directly using email or phone.")
+    })
+  }
+
+  // message
+  let messageBtn = document.getElementById('message-submit-btn');
+  if (messageBtn) {
+    messageBtn.addEventListener('click', ()=> {
+      alert("Message Failed to Send. \nSomething went wrong. Please contact us directly using email or phone.")
+    })
+  }
+
 })();
