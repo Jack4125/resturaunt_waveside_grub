@@ -3,12 +3,6 @@
     font-size: 16px;
   }
 
-  body {
-    /* background: url('images/bg.jpg') no-repeat center;
-    background-size: cover;
-    background-attachment: fixed; */
-  }
-
   .btn-wrap {
     text-align: start;
   }
@@ -135,7 +129,7 @@
   .menu-gallery li {
     overflow: hidden;
     width: 25%;
-    height: 25vw;
+    height: 20vw;
   }
 
   /* mid */
@@ -146,6 +140,10 @@
 
   .mid input {
     width: 350px;
+  }
+
+  .update-social-icons-change {
+    margin-right: 0;
   }
 
   /* footer */
